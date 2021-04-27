@@ -1,0 +1,74 @@
+@font-face{
+  src: url("../src/fonts/sega-logo-font-cufonfonts-webfont/SEGA.woff");
+  font-family: "SEGA";
+}
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1{
+  font-family: "SEGA";
+  color:#0ccac4;
+  font-size: 48px;
+  line-height: 55.2px;
+  font-weight: 200;
+  margin: 32.16px 0px;
+
+}
+.container div .form-text{
+  outline: none;
+  background-color:rgb(205, 236, 255);
+  font-size: 16px;
+  border: 2px solid #9eebcf;
+  border: 2px solid white;
+  height: 50px;
+}
+.container--mix{
+  margin: 0 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.card-lite{
+  background-color:#9eebcf !important;
+  cursor: pointer;
+  color: #000 !important;
+  border-radius: 10px !important;
+  transform: scale(1) !important;
+  transition: transform 400ms;
+  
+}
+
+.card-lite:hover{
+  background-color:#bce0d3 !important;
+  color:#0a1f54 !important;
+  transform: scale(1.06) !important;
+  
+}.outline-primary{
+  border: 1px solid white;
+  background-color:#bce0d3 !important;
+ 
+}
+
+.outline-primary:hover{
+  border: 1px solid rgba(225, 228, 227, 0.322) !important;
+  background-color:rgba(225, 228, 227, 0.911) !important;
+   background-color:#9eebcf !important;
+ 
+}
+a{
+  color:#0a1f54 !important;
+}
+.back-link{
+  color:rgb(199, 248, 240) !important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
