@@ -14,13 +14,13 @@ import {
 	MDBRipple,
 } from "mdb-react-ui-kit";
 let url = "https://robohash.org/";
-
+const API_URL= "http://jsonplaceholder.typicode.com/users";
 function CardDetails(props) {
 	const [personalRobot, setPersonalRobot] = useState([]);
 	const [friends, setFriends] = useState([]);
 	console.log("marcos:", props.marcos);
 	useEffect(function () {
-		fetch("http://localhost:3000/users")
+		fetch(API_URL)
 			.then(function (result) {
 				return result.json();
 			})
