@@ -4,7 +4,7 @@ import InputField from "./components/input-Field/InputField";
 import axios from "axios";
 import { Route, Switch, useLocation } from "react-router-dom";
 import CardDetails from "./components/card/Card-Details";
-const url = "http://jsonplaceholder.typicode.com/users";
+const url = "https://jsonplaceholder.typicode.com/users";
 //const url = "http://localhost:3000/users";
 
 const App = () => {
