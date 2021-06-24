@@ -14,7 +14,7 @@ import {
 	MDBRipple,
 } from "mdb-react-ui-kit";
 let url = "https://robohash.org/";
-const API_URL= "http://jsonplaceholder.typicode.com/users";
+const API_URL= "https://jsonplaceholder.typicode.com/users";
 function CardDetails(props) {
 	const [personalRobot, setPersonalRobot] = useState([]);
 	const [friends, setFriends] = useState([]);
